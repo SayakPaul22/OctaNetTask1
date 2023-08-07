@@ -1,0 +1,79 @@
+/* Reset default margin and padding */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, #e3e8ea, #7cc6f4, #009dff, #006bff, #3912eb);
+   
+
+}
+
+header {
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: #171414;
+    text-align: center;
+    padding:1px 0;
+    margin: 1px;
+    
+}
+
+nav {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    color: #fff;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.section {
+    flex: 1;
+    padding: 1.5em;
+    background-image: linear-gradient(to top, #051437, #34215b, #6d2777, #ac2286, #eb1286);
+    box-shadow: 0 0 5px rgb(235, 226, 226);
+    border-radius: 5px;
+    margin: 0 1em;
+    
+}
+
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+
